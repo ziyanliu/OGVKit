@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
     soggdemuxer.private_header_files = "Classes/OGVDecoderOgg.h",
                                        "Classes/OGVDecoderOggPacket.h"
     soggdemuxer.dependency 'OGVKit/Core'
-    soggdemuxer.dependency 'liboggz', :git => 'https://gitlab.xiph.org/xiph/liboggz'
+    soggdemuxer.dependency 'liboggz', :gitlab => 'https://gitlab.xiph.org/xiph/liboggz'
     soggdemuxer.dependency 'OGVKit/libskeleton', '~>0.4'
   end
   s.subspec "WebMDemuxer" do |swebmdemuxer|
